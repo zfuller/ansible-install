@@ -12,4 +12,4 @@ echo "updating apt cache"
 $SUDO apt update
 
 echo "installing ansible"
-$SUDO apt -y install python3 ansible
+$SUDO apt install python3 ansible -y 
